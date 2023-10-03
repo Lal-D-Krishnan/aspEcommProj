@@ -12,7 +12,7 @@ namespace Bulky.DataAccess.Repository
 {
     public class ApplicationUserRepository : Repository<ApplicationUserRepository>, IApplicationUserRepository
     {
-        private readonly ApplicationDbContext _db;
+        private  ApplicationDbContext _db;
         public ApplicationUserRepository(ApplicationDbContext db) : base(db) 
         {
             _db = db;        
