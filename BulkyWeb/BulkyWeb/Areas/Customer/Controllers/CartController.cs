@@ -121,7 +121,7 @@ namespace BulkyWeb.Areas.Customer.Controllers
 				_unitOfWork.Save();
 			}
 
-            if (applicationUser.CompanyId.GetValueOrDefault() == 2)
+            if (applicationUser.CompanyId.GetValueOrDefault() == 1)
             {
 				//it is a regular customer account and we need to capture payment
 				//stripe logic
