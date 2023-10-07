@@ -1,12 +1,3 @@
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.csproj.AssemblyReference.cache
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.GeneratedMSBuildEditorConfig.editorconfig
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.AssemblyInfoInputs.cache
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.AssemblyInfo.cs
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.csproj.CoreCompileInputs.cache
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.MvcApplicationPartsAssemblyInfo.cache
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.RazorAssemblyInfo.cache
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.RazorAssemblyInfo.cs
-D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.sourcelink.json
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\appsettings.Development.json
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\appsettings.json
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\BulkyWeb.staticwebassets.runtime.json
@@ -18,6 +9,7 @@ D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\BulkyWeb.pdb
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Azure.Core.dll
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Azure.Identity.dll
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Humanizer.dll
+D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
@@ -284,6 +276,16 @@ D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Bulky.Utility.dll
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Bulky.DataAccess.pdb
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Bulky.Models.pdb
 D:\bulky\BulkyWeb\BulkyWeb\bin\Debug\net8.0\Bulky.Utility.pdb
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.csproj.AssemblyReference.cache
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.AssemblyInfoInputs.cache
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.AssemblyInfo.cs
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.csproj.CoreCompileInputs.cache
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.MvcApplicationPartsAssemblyInfo.cs
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.RazorAssemblyInfo.cache
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.RazorAssemblyInfo.cs
+D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\BulkyWeb.sourcelink.json
 D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\staticwebassets.build.json
 D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\staticwebassets.development.json
 D:\bulky\BulkyWeb\BulkyWeb\obj\Debug\net8.0\staticwebassets\msbuild.BulkyWeb.Microsoft.AspNetCore.StaticWebAssets.props
