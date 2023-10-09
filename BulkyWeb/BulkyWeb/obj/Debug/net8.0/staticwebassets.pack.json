@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\bulky\\BulkyWeb\\BulkyWeb\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
       "Id": "D:\\bulky\\BulkyWeb\\BulkyWeb\\wwwroot\\images\\lawn_leaf.jpg",
       "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
     },
