@@ -23,6 +23,7 @@ namespace BulkyWeb.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
+
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
 
@@ -33,8 +34,11 @@ namespace BulkyWeb.Areas.Customer.Controllers
                 OrderHeader = new()
             };
 
+            IEnumerable<ProductImage> productImages = _unitOfWork.ProductImage.GetAll();
+
             foreach (var cart in ShoppingCartVM.ShoppingCartList)
             {
+                cart.Product.ProductImages = productImages.Where(u => u.ProductId == cart.Product.Id).ToList();
                 cart.Price = GetPriceBasedOnQuantity(cart);
                 ShoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
             }
@@ -126,7 +130,7 @@ namespace BulkyWeb.Areas.Customer.Controllers
                 //it is a regular customer account and we need to capture payment
                 //stripe logic
 
-                var domain = "https://localhost:7135/";
+                var domain = Request.Scheme + "://" + Request.Host.Value + "/";
                 var options = new SessionCreateOptions
                 {
                     SuccessUrl = domain + $"customer/cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",
